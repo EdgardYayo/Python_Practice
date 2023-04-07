@@ -26,3 +26,28 @@ print(type(my_numy))
 print(my_numy)
 print(type(number))
 print(number)
+
+# Se pueden escribir muchas variables en una sola linea
+# OJO No Abusar de esta sintaxis
+
+name, surname, age = "Edgard", "Pazos", 28
+print(name, surname, age)
+
+
+# Las variables se pueden reasignar 
+
+address = "Mi casa"
+address = "Tu casa"
+address = 131
+
+# ¿Forzamos el tipado? 🤔
+
+beach: str = "Ensenada"
+beach = "Rosarito"
+beach = 90 # Realmente no lo podemos forzar
+
+# Uso de Inputs para recoger datos
+
+my_name = input("What's your name? ")
+print(my_name)
+
