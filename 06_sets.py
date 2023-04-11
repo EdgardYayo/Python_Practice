@@ -29,3 +29,18 @@ print("he" in my_new_set)
 # Se puede eliminar un elemento del set con el metodo remove()
 my_new_set.remove("hello")
 print(my_new_set)
+
+# Se puede borrar todo el set con clear()
+my_new_set.clear()
+print(my_new_set)
+
+# Se pueden unir dos sets con el metodo union()
+first_set = {"Hola", "Hello"}
+second_set = {"Bonjour", "Ohayo"}
+
+print(first_set.union(second_set))
+print(first_set.union({"Hii", "dd"}))
+
+# Para saber las diferencias entre elementos de los sets con el metodo difference()
+setty = first_set.union(second_set)
+print(setty.difference(first_set))
