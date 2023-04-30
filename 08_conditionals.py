@@ -20,5 +20,30 @@ else:
 
 
 
+new_condition = 3 * 4
+
+if new_condition == 12:
+    print("Es 12")
+elif new_condition > 12:
+    print("Mayor que 12")
+else:
+    print("Es menor que 12")
 
 print("Otra cosa")
+
+
+# Tambien se pueden hacer comprobaciones con strings
+my_string = "Love"
+
+if my_string == "Lo":
+    print("Es Lo")
+elif my_string == "ve":
+    print("Es ve")
+else: 
+    print("Es Love ❤")
+
+
+my_string = ""
+
+if not my_string:
+    print("Mi cadena de texto esta vacia")
