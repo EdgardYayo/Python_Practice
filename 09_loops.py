@@ -14,6 +14,14 @@ while one_condition:
         break
 
 
-# ME QUEDE EN EL TIEMPO 6:50
+other_condition = 20
+
+while other_condition < 30:
+    print("Sigo siendo menor que 20")
+    other_condition += 1
+
+
+# ME QUEDE EN EL TIEMPO 7:00
+
 
 
