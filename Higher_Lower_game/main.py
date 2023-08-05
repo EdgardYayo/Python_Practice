@@ -1,9 +1,7 @@
-import random 
+import random
 from art import logo, vs
 from game_data import data
 from os import system
-
-
 
 lose = False
 score = 0
