@@ -68,6 +68,7 @@ def check_resources(resources, menu, drink):
                 '' if coffee >= drink_coffee else 'coffee'
             ]
 
+
 def enough_money(Q, D, N, P, menu, drink):
     """This function make the calculation to add the money to the resources when it is enough, if not return a list with a
     boolean and a message for the user"""
@@ -87,6 +88,7 @@ def enough_money(Q, D, N, P, menu, drink):
             return [True]
     else:
         return [False, "Sorry but there is not enough money to buy a coffee."]
+
 
 def coffee_machine():
     end = False
