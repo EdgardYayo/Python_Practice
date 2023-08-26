@@ -38,34 +38,53 @@ turtle.shape("circle")
 
 
 # DRAWING A RANDOM WALK
-def random_walking(step_size):
-    directions = [0, 90, 180, 270]
-    angle = random.choice(directions)
-    random_pensize = random.randint(0, 25)
-    turtle.forward(step_size)
-    turtle.pensize(random_pensize)
-    turtle.setheading(angle)
+# def random_walking(step_size):
+#     directions = [0, 90, 180, 270]
+#     angle = random.choice(directions)
+#     random_pensize = random.randint(0, 25)
+#     turtle.forward(step_size)
+#     turtle.pensize(random_pensize)
+#     turtle.setheading(angle)
 
-def random_color():
-    random_color = (
-        randint(0, 255),
-        randint(0, 255),
-        randint(0, 255)
-    )
-    hex = "#%02x%02x%02x" % random_color
-    turtle.color(hex)
+# def random_color():
+#     random_color = (
+#         randint(0, 255),
+#         randint(0, 255),
+#         randint(0, 255)
+#     )
+#     hex = "#%02x%02x%02x" % random_color
+#     turtle.color(hex)
 
-for num in range(1000):
-    turtle.speed("fastest")
-    turtle.shape("turtle")
-    random_color()
-    random_walking(20)
-
-
+# for num in range(1000):
+#     turtle.speed("fastest")
+#     turtle.shape("turtle")
+#     random_color()
+#     random_walking(20)
 
 
+#DRAWING A SPIROGRAPH
+# def random_color():
+#     random_color = (
+#         randint(0, 255),
+#         randint(0, 255),
+#         randint(0, 255)
+#     )
+#     hex = "#%02x%02x%02x" % random_color
+#     turtle.color(hex)
+
+# def spirograph(size_of_gap):
+#     turtle.speed("fastest")
+#     random_color()
+#     turtle.circle(100)
+#     turtle.setheading(turtle.heading() + size_of_gap)
 
 
+
+# def draw_exact(size):
+#     for i in range(360 // size):
+#         spirograph(size)
+
+# draw_exact(5)
 
 
 screen = Screen()
